@@ -2,6 +2,7 @@ package com.example.myapplication
 
 import android.content.Intent
 import android.os.Bundle
+import android.text.method.LinkMovementMethod
 import android.widget.TextView
 import androidx.activity.ComponentActivity
 
@@ -10,11 +11,13 @@ class Register: ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.register)
 
-// Find the TextView for "Already have an account? Login"
-        val textViewLogin: TextView = findViewById(R.id.textView5)
+        val registerLink =findViewById<TextView>(R.id.textView5)
 
-        // Set click listener to navigate to Login activity
-        textViewLogin.setOnClickListener {
+        registerLink.text=android.text.Html.fromHtml(getString(R.string.Login))
+        registerLink.movementMethod = LinkMovementMethod.getInstance()
+
+        // Handle clicks
+        registerLink.setOnClickListener {
             val intent = Intent(this, Login::class.java)
             startActivity(intent)
         }

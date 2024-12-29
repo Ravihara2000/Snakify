@@ -3,7 +3,4 @@
     <string name="Register">
         Don\'t have an account? <a href="Register">Register</a>
     </string>
-    <string name="Login">
-        Alreday have an account? <a href="Login">Login</a>
-    </string>
 </resources>
