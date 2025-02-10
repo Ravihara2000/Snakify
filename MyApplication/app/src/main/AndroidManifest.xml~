@@ -38,9 +38,6 @@
         <activity
             android:name=".Profile"
             android:exported="false"/>
-        <activity
-            android:name=".About"
-            android:exported="false"/>
     </application>
 
 
