@@ -22,5 +22,11 @@ class Home : ComponentActivity() {
             val intent = Intent(this, About::class.java)
             startActivity(intent)
         }
+
+        val displayLink = findViewById<Button>(R.id.button5)
+        displayLink.setOnClickListener {
+            val intent = Intent(this, Display::class.java)
+            startActivity(intent)
+        }
     }
 }

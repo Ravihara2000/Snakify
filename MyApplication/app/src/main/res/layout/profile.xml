@@ -18,8 +18,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.13" />
 
-    <ImageButton
-        android:id="@+id/imageButton3"
+    <ImageView
+        android:id="@+id/imageView4"
         android:layout_width="118dp"
         android:layout_height="112dp"
         android:background="@drawable/circle_background"
@@ -31,6 +31,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.255" />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
