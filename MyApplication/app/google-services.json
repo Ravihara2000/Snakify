@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "255501081983",
+    "project_id": "snakify2-f3076",
+    "storage_bucket": "snakify2-f3076.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:255501081983:android:4420a748ec17aa35e74e4a",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlClAFOTKVmtP4vQcrQqAxAZZAYHcLGmc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
